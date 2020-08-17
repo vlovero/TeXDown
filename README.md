@@ -26,14 +26,14 @@ Just like you would do if you wanted to add a Python code block to a markdown fi
 you add three back-ticks and the language name, write the latex commands, then finish it with another three back-ticks. In this case the language name is `latex`. Example latex code-block would be
 
 ```
-```latex 
+'''latex 
 \begin{split}
     \frac{\partial y_1}{\partial t} &= D_1 \nabla^2 y_1 + f_1(Y) \\
     \frac{\partial y_2}{\partial t} &= D_2 \nabla^2 y_2 + f_2(Y) \\
     &\ \ \vdots \\
     \frac{\partial y_n}{\partial t} &= D_n \nabla^2 y_n + f_n(Y) \\
 \end{split}
- ```
+ '''
 ```
 
 which results in,
